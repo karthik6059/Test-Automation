@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Complex Employee Table</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 20px auto;
+    }
+    th, td {
+      padding: 8px 12px;
+      border: 1px solid #444;
+      text-align: left;
+    }
+    thead th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 style="text-align:center;">Employee Data Table</h2>
+
+  <table id="employeeData" border="1">
+    <thead>
+      <tr>
+        <th rowspan="2">ID</th>
+        <th rowspan="2">Name</th>
+        <th colspan="2">Contact</th>
+        <th colspan="3">Job Details</th>
+        <th rowspan="2">Status</th>
+      </tr>
+      <tr>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Department</th>
+        <th>Title</th>
+        <th>Location</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>101</td>
+        <td>John Doe</td>
+        <td>john.doe@zoho.com</td>
+        <td>555-1234</td>
+        <td>Finance</td>
+        <td>Analyst</td>
+        <td>New York</td>
+        <td>Inactive</td>
+      </tr>
+      <tr>
+        <td>102</td>
+        <td>Jane Smith</td>
+        <td>jane.smith@zoho.com</td>
+        <td>556-5678</td>
+        <td>IT</td>
+        <td>Developer</td>
+        <td>San Francisco</td>
+        <td>Active</td>
+      </tr>
+      <tr>
+        <td>103</td>
+        <td>Emily Jones</td>
+        <td>emily.jones@example.com</td>
+        <td>555-8765</td>
+        <td>Marketing</td>
+        <td>Manager</td>
+        <td>Chicago</td>
+        <td>Active</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
